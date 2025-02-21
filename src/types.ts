@@ -36,3 +36,8 @@ export interface EmailStats {
     clicked: number;
   }[];
 }
+
+export interface GenerateContentResponse {
+  content: string;
+  error?: string;
+}
